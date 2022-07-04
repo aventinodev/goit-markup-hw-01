@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <title>goit-markup-hw-01</title>
 </head>
 <body>
@@ -18,7 +17,7 @@
             <li> <a href="">Контакты</a></li>
         </ul>
         </nav>
-        <!--имейл и телефон, уточнить ссылка или текст, при необходимости откорректировать-->
+        <!--имейл и телефон, уточнить у дизайнера ссылка или текст, при необходимости откорректировать-->
         <ul>
             <li>
                 <a href="mailto:info@devstudio.com" target="_blank">info@devstudio.com</a> 
@@ -29,12 +28,12 @@
                    
         </ul>
     </header>
-    <!--уникальная часть страницы-->
+    
     <main>
         <section>
             <div>
                 <h1>Эффективные решения<br>для вашего бизнеса</h1>
-                <button>заказать услугу</button>
+                <button type="button">заказать услугу</button>
             </div>
         </section>
         <section>
@@ -66,59 +65,52 @@
         <section>
             <h2>Чем мы занимаемся</h2>
             <ul>
-                <!--фото экспортировать в формате jpg, 
-                    оптимизировать через сквош
-                +alt и ширину-->
                 <li>
-                    <img src="./images/img-desk.svg" alt="" width="">
+                    <img src="./images/img-desk.jpg" alt="photo desktop" width="370">
                 </li>
                 <li>
-                    <img src="./images/img-mobile.svg" alt="" width="">
+                    <img src="./images/img-mobile.jpg" alt="photo screen mobile" width="370">
                 </li>
                 <li>
-                    <h3> ....</h3>
-                    <P>......</P>
+                    <img src="./images/img-tablet.jpg" alt="photo tablet" width="370">
                 </li>
             </ul>
         </section>
-        </main>
-    </div>    
         <section>
             <h2>Наша команда</h2>
-            <!--добавлены блочные теги 
+            <!--добавлен тег  div
                 для групирования и дальнейшей стилизации 
-                согласно замыслу дизайнера.
-                В задании этого нет. но это не нарушает верстку, 
-                могу убрать, если это преждевременно -->
+                согласно замыслу дизайнера-->
             <div>
                 <ul>
-                    <!--фото добавить +alt-->
+                    <!--h3 хочется присвоить названию долности-->
                     <Li>
-                        <div>
-                            <img src="" alt="" width="270">
-                            <h3>Игорь Демьяненко</h3>
+                        <section>
+                            <img src="./images/img-product-designer.jpg" alt="photo product designer" width="270">
+                            <h3>Игорь Демьяненко</h3> 
                             <p>Product Designer</p>
-                        </div>
+                        </section>
                     </Li>
                     <li>
-                        <div>
-                            <img src="" alt="" width="270">
+                        <section>
+                            <img src="./images/img-fronted-developer.jpg" alt="photo fronted developer" width="270">
                             <h3>Ольга Репина</h3>
                             <p>Frontend Developer</p>
-                        </div>
+                        </section>
                     </li>
                     <li>
-                        <div>
-                            <img src="" alt="" width="270">
+                        <section>
+                            <img src="./images/img-marketing.jpg" alt="photo markening" width="270">
                             <h3>Николай Тарасов</h3>
                             <p>Marketing</p>
-                        </div>
+                        </section>
                     </li>
                     <li>
-                        <div>
-                            <img src="" alt="" width="270">
+                        <section>
+                            <img src="./images/img-ui-designer.jpg" alt="photo ui disigner" width="270">
                             <h3>Михаил Ермаков</h3>
                             <p>UI Designer</p>
+                        </section>
                     </Li>
                 </ul>
 
@@ -127,15 +119,13 @@
         </section>
     </main>
     <footer>
-        <div>
             <a href="/">WebStudio</a>
             <address>
                 <p>г. Киев, пр-т Леси Украинки, 26</p>
                 <p>info@example.com</p>
                 <p>+38 099 111 11 11</p>
             </address>
-        </div>
-    </footer>
+        </footer>
       
 </body>
 </html>
